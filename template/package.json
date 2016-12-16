@@ -1,0 +1,35 @@
+{
+  "name": "smui-fis",
+  "version": "1.0.0",
+  "description": "cpc 重构",
+  "main": "index.js",
+  "scripts": {
+    "run": "fis3 server start",
+    "re": "fis3 release -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:front_web/cpc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-runtime": "^6.11.6",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "fis-parser-babel-5.x": "^1.0.0",
+    "fis-parser-less-2.x": "~0.1.4",
+    "fis3-hook-commonjs": "^0.1.14",
+    "fis3-parser-nunjucks": "^1.0.0",
+    "fis3-parser-vuex": "^0.0.1",
+    "less": "^2.7.1",
+    "fis3-postpackager-loader": "^1.3.13",
+    "less": "^2.7.1",
+    "vue": "^1.0.28",
+    "vueify": "^8.1.1",
+    "vueify-sync": "^0.2.0"
+  }
+}
