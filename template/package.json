@@ -4,12 +4,8 @@
   "description": "cpc 重构",
   "main": "index.js",
   "scripts": {
-    "run": "fis3 server start",
-    "re": "fis3 release -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.alibaba-inc.com:front_web/cpc.git"
+    "sever": "fis3 server start",
+    "dev": "fis3 release -w"
   },
   "author": "",
   "license": "ISC",
